@@ -52,7 +52,7 @@ permissions:
 
 jobs:
   release:
-    uses: logos-co/logos-modules-release-action/.github/workflows/release.yml@fbc22adf99005af47e31e2d4fd69679c13ec6a95
+    uses: logos-co/logos-modules-release-action/.github/workflows/release.yml@333c0750e85577d932e2caf0301e50db0d31bbc8
     with:
       module_path: ${{ inputs.module_path }}
 
