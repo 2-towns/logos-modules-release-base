@@ -82,5 +82,6 @@ jobs:
     # Inline mode reads this; none/external ignore it. Wired via
     # `secrets: inherit` from each caller so the per-module files don't
     # need to know which secret names matter. Uncomment for inline mode.
-    #secrets:
+    secrets:
+       STORAGE_NODES: ${{ secrets.STORAGE_NODES }}
     #  signing_key: ${{ secrets.LOGOS_SIGNING_KEY }}
