@@ -52,7 +52,7 @@ permissions:
 
 jobs:
   release:
-    uses: logos-co/logos-modules-release-action/.github/workflows/release.yml@5b77b53435f8266a6126d0d997950e4973000801
+    uses: logos-co/logos-modules-release-action/.github/workflows/release.yml@fbc22adf99005af47e31e2d4fd69679c13ec6a95
     with:
       module_path: ${{ inputs.module_path }}
 
@@ -83,5 +83,5 @@ jobs:
     # `secrets: inherit` from each caller so the per-module files don't
     # need to know which secret names matter. Uncomment for inline mode.
     secrets:
-       STORAGE_NODES: ${{ secrets.STORAGE_NODES }}
+       storage_nodes: ${{ secrets.STORAGE_NODES }}
     #  signing_key: ${{ secrets.LOGOS_SIGNING_KEY }}
