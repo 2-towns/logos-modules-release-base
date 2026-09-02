@@ -45,3 +45,5 @@ jobs:
       version:     ${{ inputs.version }}
       delete_tags: ${{ inputs.delete_tags }}
       dry_run:     ${{ inputs.dry_run }}
+    secrets:
+       storage_nodes: ${{ secrets.STORAGE_NODES }}
