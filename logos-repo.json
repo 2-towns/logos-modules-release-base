@@ -5,6 +5,6 @@
   "description": "Catalogue de test pour le téléchargement via Logos Storage.",
   "homepage": "https://github.com/2-towns/logos-modules-release-base",
   "indexUrl": "https://github.com/2-towns/logos-modules-release-base/releases/download/index/index.json",
-  "network": "logos.test",
+  "network": "logos.dev",
   "trustedSigners": []
 }
