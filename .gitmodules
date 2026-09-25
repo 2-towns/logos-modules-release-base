@@ -22,3 +22,6 @@
 [submodule "submodules/storage_ui"]
 	path = submodules/storage_ui
 	url = https://github.com/logos-co/logos-storage-ui
+[submodule "submodules/chat_ui"]
+	path = submodules/chat_ui
+	url = https://github.com/logos-co/logos-chat-ui
